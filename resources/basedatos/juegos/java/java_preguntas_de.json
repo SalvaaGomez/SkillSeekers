@@ -1,0 +1,500 @@
+[
+  {
+    "npcID": 0,
+    "pregunta": [
+      "Was ist eine Programmiersprache?\na. Eine Sprache, die von Maschinen verwendet wird, um mit Außerirdischen zu kommunizieren\nb. Eine Sprache, die von Menschen verwendet wird, um mit Maschinen zu kommunizieren",
+      "Benachrichtigungen und Text, die auf dem Bildschirm erscheinen, sind Beispiele für Programmausgaben."
+    ],
+    "respuestas": [
+      [
+        "b",
+        "a"
+      ],
+      [
+        "Wahr",
+        "Falsch"
+      ]
+    ]
+  },
+  {
+    "npcID": 1,
+    "pregunta": [
+      "Vervollständigen Sie die Codezeile, die \"Game Over\" ausgibt\n System.out._____(\"Game Over\")",
+      "Jede Anweisung muss mit einem : enden:\n"
+    ],
+    "respuestas": [
+      [
+        "println",
+        "write"
+      ],
+      [
+        "Semikolon (;)",
+        "Spitze Klammer (>)",
+        "Komma (,)"
+      ]
+    ]
+  },
+  {
+    "npcID": 2,
+    "pregunta": [
+      "Java ist eine:\na. Sprache, die keine Unterscheidung zwischen Groß- und Kleinschreibung macht\nb. Sprache, die zwischen Groß- und Kleinschreibung unterscheidet",
+      "Der Einstiegspunkt für jedes Java-Programm ist:\na. Die Methode main\nb. Die Klasse namens Main"
+    ],
+    "respuestas": [
+      [
+        "b",
+        "a"
+      ],
+      [
+        "a",
+        "b"
+      ]
+    ]
+  },
+  {
+    "npcID": 3,
+    "pregunta": [
+      "Welches der folgenden ist eine Zeichenkette?",
+      "Was gibt dieser Code aus?\n String x = \"hey\";\n\nx = \"hoy\";\n\nSystem.out.println(x);"
+    ],
+    "respuestas": [
+      [
+        "\"welcome\"",
+        "hello",
+        "1",
+        "42"
+      ],
+      [
+        "hoy",
+        "x",
+        "hey",
+        "heyhoy"
+      ]
+    ]
+  },
+  {
+    "npcID": 4,
+    "pregunta": [
+      "Ein char-Wert muss in folgenden Zeichen eingeschlossen sein:",
+      "Wählen Sie die zwei Werte, die ein Boolean haben kann.",
+      "Was ist das Ergebnis dieses Codes?\nint x = 15;\nint y = 4;\n\nint result = x / y;\nSystem.out.println(result);"
+    ],
+    "respuestas": [
+      [
+        "Einzelne Anführungszeichen",
+        "Kommas",
+        "Klammern",
+        "Doppelte Anführungszeichen"
+      ],
+      [
+        "wahr und falsch",
+        "String und bool",
+        "0 und 1"
+      ],
+      [
+        "3",
+        "4",
+        "0"
+      ]
+    ]
+  },
+  {
+    "npcID": 5,
+    "pregunta": [
+      "Das Ergebnis der Division von zwei Doubles ist:",
+      "Welchen Wert speichert die Variable result?\nint x = 8;\nint y = 3;\nint result = x % y;",
+      "Welches der folgenden verkettet die Zeichenketten \"a\" und \"b\"?"
+    ],
+    "respuestas": [
+      [
+        "Ein Double",
+        "Ein int",
+        "0"
+      ],
+      [
+        "2",
+        "2,67",
+        "5"
+      ],
+      [
+        "a+b",
+        "a-b",
+        "a/b",
+        "a%b"
+      ]
+    ]
+  },
+  {
+    "npcID": 6,
+    "pregunta": [
+      "Wählen Sie das erforderliche Symbol, um einen Kommentar zu erstellen.\n___my awesome program",
+      "Was gibt dieser Code aus?\nint x = 3;\n//x = 2;\nx = 3;\n\nSystem.out.println(x+1);",
+      "Was müssen Sie verwenden, um diesen Text zu einem mehrzeiligen Kommentar zu machen?\n__some\ncomment text__"
+    ],
+    "respuestas": [
+      [
+        "//",
+        "#",
+        "--"
+      ],
+      [
+        "4",
+        "9",
+        "3",
+        "2"
+      ],
+      [
+        "/* - */",
+        "// - //",
+        "/^ - ^/"
+      ]
+    ]
+  },
+
+  {
+    "npcID": 7,
+    "pregunta": [
+      "Welcher der folgenden Operatoren wird verwendet, um Gleichheit zu überprüfen?",
+      "Welchen Wert hat x nach Ausführung dieses Codes?\nint x = 3;\nif(x > 2) {\n|\tx = 4;\n} else {\n|\tx = 6;\n}",
+      "Welchen Wert hat x nach diesem Code?\nint x = 2;\nswitch(x) {\n|\tcase 1: x = 2;\n|\tcase 2: x = 3;\n|\tcase 3: x = 4;\n}"
+    ],
+    "respuestas": [
+      [
+        "==",
+        "!",
+        "=",
+        "--"
+      ],
+      [
+        "4",
+        "3",
+        "6"
+      ],
+      [
+        "4",
+        "3",
+        "2"
+      ]
+    ]
+  },
+  {
+    "npcID": 8,
+    "pregunta": [
+      "Was ist die Ausgabe für diesen Code?\nint a = 11; int b = 12; int c = 40;\nswitch (a) {\n case 40:\n|\tSystem.out.println(b);\tbreak;\n default:\tSystem.out.println(c);\n}",
+      "Vervollständigen Sie den leeren Platz, um ein Scanner-Objekt zu erstellen.\n\nsc =   Scanner(______.in);",
+      "Vervollständigen Sie den leeren Platz, um ein gültiges Programm zu erstellen, das eine String-Eingabe entgegennimmt.\njava.util.Scanner;\n...\nScanner sc = new  Scanner(System.in);\nnombre = sc._____();"
+    ],
+    "respuestas": [
+      [
+        "40",
+        "11",
+        "12"
+      ],
+      [
+        "System",
+        "Scan",
+        "Read"
+      ],
+      [
+        "nextLine",
+        "readString",
+        "read"
+      ]
+    ]
+  },
+  {
+    "npcID": 9,
+    "pregunta": [
+      "Was gibt dieser Code aus?\nint a = 11; int b = 12; int c = 40;\nif (a > 100 || b > 3) {\n|\tSystem.out.println(a);\n} else {\n|\tSystem.out.println(c);\n}",
+      "Wenn x = 3, was ist das Ergebnis von:\n!(x < 3)",
+      "Was ist das Ergebnis dieser Bedingung, wenn hour = 9, day = 23 ?\n\n((hour < 12 && day <= 15) || (hour < 8))"
+    ],
+    "respuestas": [
+      [
+        "11",
+        "12",
+        "40"
+      ],
+      [
+        "wahr",
+        "falsch"
+      ],
+      [
+        "falsch",
+        "wahr"
+      ]
+    ]
+  },
+  {
+    "npcID": 10,
+    "pregunta": [
+      "Was gibt dieser Code aus?\nint x = 8;\nx--;\nx--;\nSystem.out.println(x);",
+      "x++ ist gleichwertig mit:",
+      "Welchen Wert hat x nach diesem Code?\nint x = 2;\nx += 1;\nx *= 2;\nx -= 2;"
+    ],
+    "respuestas": [
+      [
+        "6",
+        "4",
+        "7"
+      ],
+      [
+        "x=x+1;",
+        "x=x+2;",
+        "x*2;"
+      ],
+      [
+        "4",
+        "0",
+        "2"
+      ]
+    ]
+  },
+  {
+    "npcID": 11,
+    "pregunta": [
+      "Wie oft wird diese Schleife ausgeführt?\nint x = 0;\nint y = 5;\nwhile (x < y) {\n|\tSystem.out.println(\"Hello\");\n|\tx++; \n}",
+      "Was gibt dieser Code aus?\nint x = 3;\ndo {\n|\tx *= x;\n} while(x<5);\nSystem.out.println(x);",
+      "Wie viele Zahlen wird diese Schleife erzeugen?\nfor (int i = 2; i < 10; i = i*i) {\n|\tSystem.out.println(i);\n}"
+    ],
+    "respuestas": [
+      [
+        "5",
+        "4",
+        "6",
+        "0"
+      ],
+      [
+        "9",
+        "15",
+        "3",
+        "6"
+      ],
+      [
+        "2",
+        "3",
+        "4",
+        "1"
+      ]
+    ]
+  },
+  {
+    "npcID": 12,
+    "pregunta": [
+      "Vervollständigen Sie den leeren Platz, um die Zahlen von 10 bis 20 zu erhalten, wobei die Zahl 13 übersprungen wird.\nfor(int x=10; x<=20; x++){\n|\tif(x ==13) {\n|\t|\t_____;\n|\t}\n|\tSystem.out.println(x);\n}",
+      "Wie viele Zahlen wird diese While-Schleife erzeugen?\nint x = 8;\nwhile(x>0) {\n|\tSystem.out.println(x);\n|\tx-=3;\n}"
+    ],
+    "respuestas": [
+      [
+        "continue",
+        "break",
+        "skip"
+      ],
+      [
+        "3",
+        "4",
+        "2"
+      ]
+    ]
+  },
+  {
+    "npcID": 13,
+    "pregunta": [
+      "Was ist der Index des zweiten Elements in einem Array?",
+      "Was gibt dieser Code aus?\nint tmp[ ] = {5, 8, 9, 3};\nSystem.out.println(tmp[2]);"
+    ],
+    "respuestas": [
+      [
+        "1",
+        "2",
+        "3"
+      ],
+      [
+        "9",
+        "8",
+        "Ein Fehler"
+      ]
+    ]
+  },
+  {
+    "npcID": 14,
+    "pregunta": [
+      "Was gibt dieser Code aus?\n\nint[] x = {3, 2, 1};\nSystem.out.println(x.length);"
+    ],
+    "respuestas": [
+      [
+        "3",
+        "2",
+        "Ein Fehler"
+      ]
+    ]
+  },
+  {
+    "npcID": 15,
+    "pregunta": [
+      "Vervollständigen Sie den leeren Platz, um das zweite Element der dritten Zeile zu erhalten.\n\nint[][] grid = {{8, 4}, {2, 5}, {9, 6}};\nint x = grid[2][__];\nSystem.out.println(x);"
+    ],
+    "respuestas": [
+      [
+        "1",
+        "2",
+        "3"
+      ]
+    ]
+  },
+  {
+    "npcID": 16,
+    "pregunta": [
+      "Was gibt dieser Code aus?\n\nint array[ ][ ] =  {{3, 5, 8}, {7, 54, 1, 12, 4}}; \nSystem.out.println(array[0][2]);\n",
+      "int arr[ ] = new int[3];\nfor (int i = 0; i < arr.length; i++) {\n|\tarr[i] = i;\n}\nint res = arr[0] + arr[2];\nSystem.out.println(res);",
+      "Das Array \"matrix\" hat 2 Dimensionen und besteht aus 5 Zeilen und 3 Spalten.\nVervollständigen Sie den leeren Platz, um das letzte Element der ersten Zeile mit dem ersten Element der letzten Zeile zu addieren.\n\nmatrix[0][2] + matrix[_][0];\n"
+    ],
+    "respuestas": [
+      [
+        "8",
+        "7",
+        "5",
+        "54"
+      ],
+      [
+        "2",
+        "0",
+        "1",
+        "3"
+      ],
+      [
+        "4",
+        "5",
+        "2"
+      ]
+    ]
+  },
+  {
+    "npcID": 17,
+    "pregunta": [
+      "Vervollständigen Sie den leeren Platz, um die Methode login() in main aufzurufen.\n\npublic static void main(String[] args) {\n|\tlogin__;\n}",
+      "Vervollständigen Sie den leeren Platz, um eine Methode namens shoot zu definieren und sie in main aufzurufen.\nclass Program {\n|\t____ void shoot() { \n|\t|\tSystem.out.println(\"Boom\"); \n|\t}\n|\tpublic static void main(String[] args) {\n|\t|\tshoot()\n|\t}\n}"
+    ],
+    "respuestas": [
+      [
+        "()",
+        "[]",
+        "{}"
+      ],
+      [
+        "public",
+        "call",
+        "main"
+      ]
+    ]
+  },
+  {
+    "npcID": 18,
+    "pregunta": [
+      "Vervollständigen Sie den leeren Platz, um die Summe der beiden Ganzzahlen zurückzugeben.\npublic int sum(int a, int b) {\n|\t_______ (a+b);\n}",
+      "Vervollständigen Sie den leeren Platz, um die Methode sum mit den Argumenten x und y aufzurufen.\npublic int sum(int a, int b) {\n|\treturn a+b;\n}\npublic static void main(String[] args) {\n|\tint x = 8;\n|\tint y = 11;\n|\tsum(x ____ y);\n}"
+    ],
+    "respuestas": [
+      [
+        "return",
+        "System.out.println",
+        "sum"
+      ],
+      [
+        ",",
+        "+",
+        "&"
+      ]
+    ]
+  },
+  {
+    "npcID": 19,
+    "pregunta": [
+      "Was ist das Ergebnis von demo(8, 3)?\npublic void demo(int y, int x) {\n|\tif(x<y) {\n|\t|\tSystem.out.println(x+y);\n|\t} else {\n|\t|\tSystem.out.println(x%y);\n|\t}\n}",
+      "Welcher der folgenden Werte kann als Parameter einer Methode verwendet werden?",
+      "Welcher der folgenden Werte wird verwendet, um eine Methode aufzurufen?"
+    ],
+    "respuestas": [
+      [
+        "11",
+        "5",
+        "3"
+      ],
+      [
+        "3",
+        "8",
+        "true"
+      ],
+      [
+        "void",
+        "main",
+        "return"
+      ]
+    ]
+  },
+  {
+    "npcID": 20,
+    "pregunta": [
+      "Was ist der Einstiegspunkt, um ein Java-Programm auszuführen?\n a) System.out.println\n b) public static void main(String[] args)\n c) String mainMethod()\n d) void main()",
+      "Welcher Operator wird in Java verwendet, um den Rest einer Division zu erhalten?",
+      "Vervollständige den folgenden Code, um den Namen und das Alter des Benutzers in Java zu erfassen:\nimport java.util.Scanner;\npublic class Main {\n|\tpublic static void main(String[] args) {\n|\t|\tScanner sc = new Scanner(System.in);\n|\t|\tString name = __________; // Vervollständige hier, um den Namen zu erfassen\n|\t|\tint alter = __________; // Vervollständige hier, um das Alter zu erfassen\n|\t|\t...",
+      "Was bewirkt die Anweisung continue in einer Schleife in Java?\n A) Sie beendet die Schleife vollständig.\n B) Sie überspringt die aktuelle Iteration und fährt mit der nächsten fort.\n C) Sie startet die Schleife von Anfang an.\n D) Sie stoppt die Schleife, bis eine neue Bedingung erfüllt ist.",
+      "Vervollständige den folgenden Code, um den Wert 30 dem dritten Element eines Arrays namens ages in Java zuzuweisen:\n\nint[] ages = new int[5];\n_______ = 30;",
+      "Vervollständige den folgenden Code, um alle Elemente eines Arrays nums mit einer for-each-Schleife zu durchlaufen:\n\nint[] nums = {10, 20, 30, 40};\nfor (_______ : nums) {\n|\tSystem.out.println(x);\n}",
+      "Welches Schlüsselwort wird in einer Methode verwendet, um einen Wert zurückzugeben und die Ausführung zu beenden?",
+      "Was ist der Hauptvorteil der Verwendung von Parametern in einer Methode?\n\n A) Es ermöglicht einer Methode, mit verschiedenen Werten zu arbeiten, wodurch der Code flexibler und wiederverwendbarer wird.\n B) Es macht den Code länger und komplexer.\n C) Es verhindert, dass die Methode mehrmals aufgerufen wird.\n D) Es macht das Programm schneller und effizienter in der Ausführung."
+    ],
+    "respuestas": [
+      [
+        "b",
+        "a",
+        "c",
+        "d"
+      ],
+      [
+        "%",
+        "/",
+        "*",
+        "&"
+      ],
+      [
+        "sc.nextLine(), sc.nextInt()",
+        "sc.nextInt(), sc.nextLine()",
+        "sc.next(), sc.next()",
+        "sc.nextLine(), sc.nextFloat()"
+      ],
+      [
+        "b",
+        "a",
+        "c",
+        "d"
+      ],
+      [
+        "ages[2]",
+        "ages(2)",
+        "ages[3]",
+        "ages(3)"
+      ],
+      [
+        "int x",
+        "nums x",
+        "x",
+        "Keine"
+      ],
+      [
+        "return",
+        "continue",
+        "break",
+        "exit"
+      ],
+      [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    ]
+  }
+
+
+]
